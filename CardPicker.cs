@@ -11,7 +11,6 @@ namespace PickACardUI
         // Sudo random number generator
         static Random random = new Random();
 
-
         private static string RandomSuit()
         {
             // get a random number from 1 to 4
@@ -59,8 +58,6 @@ namespace PickACardUI
             //return the array of cards
             return pickedCards;
         }
-
-
     
     }
 }

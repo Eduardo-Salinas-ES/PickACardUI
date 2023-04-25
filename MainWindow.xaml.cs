@@ -24,7 +24,7 @@ namespace PickACardUI
         {
             InitializeComponent();
         }
-
+        // Button click event handler
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // When the button is clicked, create an array of picked cards which
